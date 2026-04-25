@@ -23,3 +23,4 @@ Servidor_Web_de_Alto_Trafico/
 3.⁠ ⁠*Análisis de Rendimiento*: Utilizamos métricas cuantitativas para asegurar que las mejoras en componentes críticos (como la red) se traduzcan en una aceleración global real del sistema.
 
 ## Integrantes del Grupo
+Gustavo Adolfo Ortiz Gutierrez
