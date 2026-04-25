@@ -4,8 +4,10 @@
 Este repositorio contiene la documentación técnica para el diseño de una infraestructura orientada a un *Servidor Web de Alto Tráfico. Nuestra prioridad principal es el **rendimiento y la concurrencia*, optimizando el sistema para manejar miles de hilos simultáneos y reducir la latencia de memoria en grandes bases de datos.
 
 ## Estructura del Repositorio
-La documentación se organiza de la siguiente manera, cumpliendo con los requisitos obligatorios.
-Servidor_Web_de_Alto_Trafico
+La documentación se organiza de la siguiente manera, cumpliendo con los requisitos obligatorios:
+
+```
+Servidor_Web_de_Alto_Trafico/
 ├── README.md
 ├── design/
 │   ├── isa_choice.md
@@ -13,7 +15,7 @@ Servidor_Web_de_Alto_Trafico
 │   └── performance_analysis.md
 └── references/
     └── bibliography.md
-
+```
 
 ## Decisiones Clave de Diseño
 1.⁠ ⁠*Prioridad de Concurrencia: El sistema está diseñado para maximizar el *throughput mediante una ISA que favorezca la ejecución eficiente de múltiples hilos.
