@@ -14,7 +14,6 @@ Servidor_Web_de_Alto_Trafico
 └── references/
     └── bibliography.md
 
-Ese va en la estructura del repositorio
 
 ## Decisiones Clave de Diseño
 1.⁠ ⁠*Prioridad de Concurrencia: El sistema está diseñado para maximizar el *throughput mediante una ISA que favorezca la ejecución eficiente de múltiples hilos.
