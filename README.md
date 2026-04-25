@@ -21,20 +21,22 @@ Servidor_Web_de_Alto_Trafico/
 </pre>
 
 ## Decisiones Clave de Diseño
-<pre>
-1.⁠ ⁠Prioridad de Concurrencia: El sistema está diseñado para maximizar el *throughput mediante una ISA que favorezca la ejecución eficiente de múltiples hilos.
-2.⁠ Optimización de Memoria: Se ha implementado una jerarquía de caché agresiva para combatir la latencia en el acceso a grandes volúmenes de datos.
-3.⁠ Análisis de Rendimiento: Utilizamos métricas cuantitativas para asegurar que las mejoras en componentes críticos (como la red) se traduzcan en una aceleración global real del sistema.
-</pre>
 
-## Integrantes del Grupo:
-<pre>
-    Sharon Marroquin
-    Eddy Cheguen
-    David Escobar
-    Ismael Liquez
-    Gustavo Ortiz
-    Wesley López
-    Luis Franco
-    Daniela López
-</pre>
+1. **ISA Seleccionada:** Arquitectura RISC (ARM de clase servidor) por su 
+   eficiencia en pipelines y densidad de núcleos para manejo de concurrencia masiva.
+2. **Jerarquía de Memoria:** Caché multinivel L1/L2/L3 con política de 
+   reemplazo LRU, optimizada para localidad temporal en cargas de trabajo web.
+3. **Rendimiento Cuantitativo:** CPI efectivo de 1.75, rendimiento de 
+   1,714 MIPS, y aceleración global de 2.10x aplicando la Ley de Amdahl 
+   sobre el 70% del tiempo de ejecución en red.
+
+## Integrantes del Grupo
+
+- Sharon Marroquin
+- Eddy Cheguen
+- David Escobar
+- Ismael Liquez
+- Gustavo Ortiz
+- Wesley López
+- Luis Franco
+- Daniela López
