@@ -20,7 +20,7 @@ detalladas a continuación.
 ## Justificación Técnica
 
 ### 1. Eficiencia en el Pipeline
-Según Hennessy & Patterson (2025, Cap. 1), los diseños RISC facilitan 
+Según Hennessy & Patterson, los diseños RISC facilitan 
 pipelines más profundos y eficientes. Al tener instrucciones de longitud 
 fija, se reduce el tiempo de decodificación, permitiendo que el procesador 
 dedique más ciclos a la ejecución real de solicitudes HTTP.
@@ -28,8 +28,7 @@ dedique más ciclos a la ejecución real de solicitudes HTTP.
 ### 2. Paralelismo Masivo
 La arquitectura ARM permite integrar una mayor densidad de núcleos por chip 
 en comparación con CISC (x86), lo cual es crítico para manejar miles de 
-hilos de ejecución concurrentes en servidores como Nginx o Apache 
-(Stallings, 2015, Cap. 2).
+hilos de ejecución concurrentes en servidores como Nginx o Apache.
 
 ### 3. Rendimiento por Watt
 Se minimiza la generación de calor, permitiendo mantener frecuencias 
