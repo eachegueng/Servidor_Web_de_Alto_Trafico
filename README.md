@@ -1,4 +1,4 @@
-# Mini-proyecto: Arquitectura de Computadores - Grupo A
+# Curso: Arquitectura de Computadoras - Grupo A
 ## Escenario: Servidor Web de Alto Tráfico
 
 Este repositorio contiene la documentación técnica para el diseño de una 
