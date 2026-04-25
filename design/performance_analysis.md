@@ -2,7 +2,7 @@
 
 ## 1. Ecuación Fundamental del Rendimiento
 
-Basándonos en Hennessy & Patterson (2025, Cap. 1), calculamos el rendimiento 
+Basándonos en Hennessy & Patterson, calculamos el rendimiento 
 del servidor mediante la ecuación de Tiempo de CPU:
 
 $$Tiempo\ de\ CPU = IC \times CPI \times Periodo\ de\ Reloj$$
