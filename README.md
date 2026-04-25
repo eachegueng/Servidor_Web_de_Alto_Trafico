@@ -19,9 +19,9 @@ Servidor_Web_de_Alto_Trafico/
 
 ## Decisiones Clave de Diseño
 <pre>
-1.⁠ ⁠*Prioridad de Concurrencia: El sistema está diseñado para maximizar el *throughput mediante una ISA que favorezca la ejecución eficiente de múltiples hilos.
-2.⁠ ⁠*Optimización de Memoria*: Se ha implementado una jerarquía de caché agresiva para combatir la latencia en el acceso a grandes volúmenes de datos.
-3.⁠ ⁠*Análisis de Rendimiento*: Utilizamos métricas cuantitativas para asegurar que las mejoras en componentes críticos (como la red) se traduzcan en una aceleración global real del sistema.
+1.⁠ ⁠Prioridad de Concurrencia: El sistema está diseñado para maximizar el *throughput mediante una ISA que favorezca la ejecución eficiente de múltiples hilos.
+2.⁠ Optimización de Memoria: Se ha implementado una jerarquía de caché agresiva para combatir la latencia en el acceso a grandes volúmenes de datos.
+3.⁠ Análisis de Rendimiento*: Utilizamos métricas cuantitativas para asegurar que las mejoras en componentes críticos (como la red) se traduzcan en una aceleración global real del sistema.
 </pre>
 
 ## Integrantes del Grupo:
