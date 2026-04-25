@@ -30,7 +30,7 @@ Servidor_Web_de_Alto_Trafico/
    1,714 MIPS, y aceleración global de 2.10x aplicando la Ley de Amdahl 
    sobre el 70% del tiempo de ejecución en red.
 
-## Integrantes del Grupo
+## Integrantes del Grupo:
 
 - Sharon Marroquin
 - Eddy Cheguen
