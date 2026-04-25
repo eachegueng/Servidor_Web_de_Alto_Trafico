@@ -1,11 +1,9 @@
-## Selección de ISA – Servidor Web de Alto Tráfico. ##
+# Selección de la ISA – Servidor Web de Alto Tráfico
 
-Arquitectura Seleccionada: RISC (ARM / RISC-V)
-Para el escenario de un servidor web de alto tráfico, donde la prioridad es el rendimiento concurrente, la ejecución de miles de hilos y la optimización de latencia de memoria para grandes bases de datos, se recomienda seleccionar una arquitectura RISC, particularmente ARM de clase servidor (o RISC-V en escenarios emergentes).
+### Arquitectura Seleccionada: RISC (ARM / RISC-V)
+Para un servidor web que prioriza la concurrencia y la ejecución de miles de hilos, se selecciona la arquitectura *RISC (ARM de clase servidor)*.
 
-## Justificación Técnica ##
-
-La arquitectura RISC resulta más adecuada debido a que utiliza un conjunto reducido y optimizado de instrucciones, permitiendo una ejecución más rápida y eficiente por ciclo de reloj. Esto favorece cargas altamente paralelas y repetitivas como las de servidores web, donde predominan operaciones de red, acceso a memoria y manejo concurrente de múltiples solicitudes. Según Hennessy y Patterson, los diseños RISC facilitan pipelines más profundos y eficientes, mejorando el throughput general del procesador en cargas paralelizables.
-
-Además, ARM ha demostrado ofrecer una mejor relación rendimiento/consumo energético, permitiendo integrar más núcleos por socket, lo cual es ideal para servidores orientados a alta concurrencia. Esta eficiencia también reduce generación de calor y costos operativos en centros de datos.
-Por otro lado, aunque la arquitectura x86 (CISC) continúa dominando muchos entornos empresariales por compatibilidad y ecosistema, su mayor complejidad de decodificación de instrucciones y consumo energético puede representar una desventaja en escenarios donde la escalabilidad horizontal y la eficiencia térmica son críticas.
+### Justificación Técnica
+1. *Eficiencia en el Pipeline:* Según *Hennessy y Patterson*, los diseños RISC facilitan pipelines más profundos y eficientes. Al tener instrucciones de longitud fija, se reduce el tiempo de decodificación, permitiendo que el procesador dedique más ciclos a la ejecución real de solicitudes.
+2. *Paralelismo Masivo:* La arquitectura ARM permite integrar una mayor densidad de núcleos por chip en comparación con CISC (x86), lo cual es crítico para manejar miles de hilos de ejecución en servidores como Nginx o Apache.
+3. *Rendimiento/Consumo:* Se minimiza la generación de calor, permitiendo mantener frecuencias estables durante picos de tráfico.
