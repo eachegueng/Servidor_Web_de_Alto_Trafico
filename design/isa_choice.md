@@ -38,6 +38,6 @@ centros de datos de alta disponibilidad.
 ## Conclusión
 
 La arquitectura RISC (ARM) es la elección óptima para el escenario de 
-Servidor Web de Alto Tráfico del Grupo A, ya que maximiza la concurrencia, 
+Servidor Web de Alto Tráfico, ya que maximiza la concurrencia, 
 reduce la latencia de decodificación y permite escalar horizontalmente el 
 número de núcleos sin comprometer la estabilidad térmica del sistema.
