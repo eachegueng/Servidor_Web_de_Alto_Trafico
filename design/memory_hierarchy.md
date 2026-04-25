@@ -4,8 +4,7 @@
 
 Para minimizar la latencia en el acceso a grandes bases de datos y contenido 
 estático, implementamos la siguiente estructura de caché, basada en los 
-principios de localidad temporal y espacial descritos por Stallings 
-(2015, Cap. 4):
+principios de localidad temporal y espacial descritos por Stallings.
 
 | Nivel  | Tamaño        | Tipo         | Latencia aprox. | Característica                        |
 |--------|---------------|--------------|-----------------|---------------------------------------|
@@ -18,7 +17,7 @@ principios de localidad temporal y espacial descritos por Stallings
 ### Caché L1 (32KB – 64KB)
 Dividida en caché de instrucciones y caché de datos para evitar conflictos 
 durante el procesamiento paralelo de requests. Su reducido tamaño garantiza 
-latencias mínimas de acceso (Stallings, 2015, Cap. 4).
+latencias mínimas de acceso.
 
 ### Caché L2 (256KB – 512KB)
 Privada por núcleo, reduciendo el tiempo de acceso a datos locales de cada 
@@ -39,7 +38,7 @@ reduciendo la dependencia de la RAM para datos que no cambian frecuentemente.
 Se selecciona *LRU* como la política de reemplazo principal para todos 
 los niveles de caché.
 
-Según Stallings (2015, Cap. 4), LRU es la política con mejor comportamiento 
+LRU es la política con mejor comportamiento 
 en cargas de trabajo con alta *localidad temporal*, reemplazando el bloque 
 que lleva más tiempo sin ser referenciado. Para un servidor web de alto 
 tráfico, los datos accedidos recientemente —como encabezados de página, 
